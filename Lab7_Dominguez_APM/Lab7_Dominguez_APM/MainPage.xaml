@@ -1,24 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lab7_Dominguez_APM"
              x:Class="Lab7_Dominguez_APM.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-    </StackLayout>
+    <ScrollView>
+        <StackLayout>
+
+            <Button x:Name="Item1" Text="Explicit"/>
+            <Button x:Name="Item2" Text="Explicit Code"/>
+            <Button x:Name="Item3" Text="Explicit Control"/>
+            <Button x:Name="Item4" Text="Explicit Control Code"/>
+            <Button x:Name="Item5" Text="Implicit"/>
+            <Button x:Name="Item6" Text="Implicit Code"/>
+            <Button x:Name="Item7" Text="Implicit Control"/>
+
+            <Button x:Name="Item9" Text="Global"/>
+            <Button x:Name="Item10" Text="Global Code"/>
+            <Button x:Name="Item11" Text="Inheritance"/>
+            <Button x:Name="Item12" Text="Inheritance Code"/>
+            <Button x:Name="Item13" Text="Dynamic"/>
+            <Button x:Name="Item14" Text="Dynamic Code"/>
+            <Button x:Name="Item15" Text="Class"/>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
