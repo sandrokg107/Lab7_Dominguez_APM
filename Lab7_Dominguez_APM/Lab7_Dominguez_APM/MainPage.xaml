@@ -3,26 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Lab7_Dominguez_APM"
              x:Class="Lab7_Dominguez_APM.MainPage">
-
-    <ScrollView>
+    <StackLayout>
         <StackLayout>
-
-            <Button x:Name="Item1" Text="Explicit"/>
-            <Button x:Name="Item2" Text="Explicit Code"/>
-            <Button x:Name="Item3" Text="Explicit Control"/>
-            <Button x:Name="Item4" Text="Explicit Control Code"/>
-            <Button x:Name="Item5" Text="Implicit"/>
-            <Button x:Name="Item6" Text="Implicit Code"/>
-            <Button x:Name="Item7" Text="Implicit Control"/>
-
-            <Button x:Name="Item9" Text="Global"/>
-            <Button x:Name="Item10" Text="Global Code"/>
-            <Button x:Name="Item11" Text="Inheritance"/>
-            <Button x:Name="Item12" Text="Inheritance Code"/>
-            <Button x:Name="Item13" Text="Dynamic"/>
-            <Button x:Name="Item14" Text="Dynamic Code"/>
-            <Button x:Name="Item15" Text="Class"/>
+            <Label Text="Laboratorio 07 - Domingues Sandro" FontSize="24" HorizontalOptions="CenterAndExpand"></Label>
+            <StackLayout>
+                <Button x:Name="DynamicDemo" Text="DynamicDemo"></Button>
+                <Button x:Name="ExplicitControlDemo" Text="ExplicitControlDemo"></Button>
+                <Button x:Name="ExplicitDemo" Text="ExplicitDemo"></Button>
+                <Button x:Name="GlobalDemo" Text="GlobalDemo"></Button>
+                <Button x:Name="ImplicitControlDemo" Text="ImplicitControlDemo"></Button>
+                <Button x:Name="ImplicitDemo" Text="ImplicitDemo"></Button>
+                <Button x:Name="InheritanceDemo" Text="InheritanceDemo"></Button>
+                <Button x:Name="StylesDemo" Text="StylesDemo"></Button>
+            </StackLayout>
         </StackLayout>
-    </ScrollView>
+    </StackLayout>
 
 </ContentPage>
